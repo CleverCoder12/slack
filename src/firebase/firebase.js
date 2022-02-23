@@ -9,13 +9,7 @@ import { getFirestore } from "firebase/firestore";
 // Your web app's Firebase configuration
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
-  apiKey: "AIzaSyCO1zJwTN5TFQNQrvCXY4sEjARKpPSxz04",
-  authDomain: "slack-29f30.firebaseapp.com",
-  projectId: "slack-29f30",
-  storageBucket: "slack-29f30.appspot.com",
-  messagingSenderId: "258858986204",
-  appId: "1:258858986204:web:47bc6009977f1da180e219",
-  measurementId: "G-0L78D7ZP5E",
+  //write your own firebase config
 };
 
 // Initialize Firebase

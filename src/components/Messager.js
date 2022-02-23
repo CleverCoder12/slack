@@ -49,7 +49,7 @@ const Wrapper = styled.div`
 const AvatarContainer = styled.div`
   height: 2rem;
   width: 2rem;
-  order = ${(props) => props.user && "9999999"}
+  order: ${(props) => props.user && "9999999"};
   position: relative;
 `;
 
