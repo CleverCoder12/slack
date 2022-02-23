@@ -44,7 +44,14 @@ function App() {
           <Coulmn>
             <Slidebar />
             <Routes>
-              <Route path="/" element={<Home />} />
+              <Route
+                path="/"
+                element={
+                  <>
+                    <Home />
+                  </>
+                }
+              />
               <Route path="/chat/:id" element={<Chat />} />
             </Routes>
           </Coulmn>
